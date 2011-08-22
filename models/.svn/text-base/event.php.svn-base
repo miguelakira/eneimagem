@@ -1,0 +1,11 @@
+<?php
+class Event extends AppModel {
+
+	var $name = 'Event';
+	var $validate = array(
+		'title' => array('rule' => 'notEmpty', 'message' => 'Este campo precisa ser preenchido!'),
+		'body' => array('rule' => 'notEmpty', 'message' => 'Este campo precisa ser preenchido!')
+	);
+
+}
+?>

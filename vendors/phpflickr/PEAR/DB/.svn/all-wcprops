@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/vendors/phpflickr/PEAR/DB
+END
+storage.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/vendors/phpflickr/PEAR/DB/storage.php
+END
+mysql.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/vendors/phpflickr/PEAR/DB/mysql.php
+END
+pgsql.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/vendors/phpflickr/PEAR/DB/pgsql.php
+END
+common.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/vendors/phpflickr/PEAR/DB/common.php
+END

@@ -1,0 +1,18 @@
+<?php
+
+class noticiasController extends AppController {
+	var $helpers = array('javascript');
+	var $uses = array('Post');
+	function index(){
+		$this->set('posts', $this->Post->find('all', array('order' => array('Post.Created DESC'))));
+	}
+	function view($id = null) {
+		$this->Post->id = $id;
+		$this->set('post', $this->Post->read());
+	}
+
+	function last_posted() {
+	        return $this->Post->find('all', array('order' => 'Post.created DESC', 'limit' => 3));
+    }
+}
+?>

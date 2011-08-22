@@ -1,0 +1,23 @@
+<?php
+/*
+ * Created on 13/09/2010
+ * Author: Miguel Akira Ykeuti Meiga
+ * 
+ */
+ 
+ class Post extends AppModel {
+ 	var $name = 'Post';
+ 	var $validate = array(
+ 		'title' => array(
+ 			'rule' => 'notEmpty',
+ 			'message' => 'Este campo precisa ser preenchido!'),
+ 		'body' => array(
+ 			'rule' => 'notEmpty',
+ 			'message' => 'Este campo precisa ser preenchido!'),
+ 		'intro' => array(
+ 			'rule' => 'notEmpty',
+ 			'message' => 'Este campo precisa ser preenchido!'),
+ 	);
+ 	
+ }
+?>

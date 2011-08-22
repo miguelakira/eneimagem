@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/vendors/phpflickr
+END
+example.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/vendors/phpflickr/example.php
+END
+getToken.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/vendors/phpflickr/getToken.php
+END
+auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/vendors/phpflickr/auth.php
+END
+phpFlickr.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/vendors/phpflickr/phpFlickr.php
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/vendors/phpflickr/README.txt
+END

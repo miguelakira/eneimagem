@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<head>
+<title>	<?php echo $title_for_layout?> - ENEIMAGEM</title>
+<!-- Include external files and scripts here (See HTML helper for more info.) -->
+<?php echo $scripts_for_layout ?>
+<?= $html->css('reset'); ?>
+<?= $html->css('default'); ?>
+<?php  echo $html->meta('icon','../img/uel-favicon.png', array
+('type' =>'icon')); ?>
+
+
+</head>
+<body>
+	<div id="container">
+	<div id="header">
+		<h1>
+			III Encontro Nacional de Estudos da Imagem 
+		</h1>
+	</div>
+	<div id="navigation" class = "bottom-rounded-corner">
+		<ul>
+			<li><?php echo $html->link('Inicial', array('controller' => 'pages', 'action' => 'principal'), array('class' => 'bottom-left-rounded-corner' )); ?> </li>
+			<li><?php echo $html->link('LEDI',   array('controller' => 'pages', 'action' => 'ledi')); ?> </li>
+			<li><?php echo $html->link('Membros', array('controller' => 'pages', 'action' => 'membros')); ?> </li>
+			<li><?php echo $html->link('Contato', array('controller' => 'pages', 'action' => 'display', 'contato')); ?> </li>
+		</ul>
+	</div>
+
+	<div id="content-container" class = "top-rounded-corner">
+			<div id="section-navigation">
+			<ul>
+				<li><?php echo $html->link('Principal', array('controller' => 'pages', 'action' => 'display', 'principal')); ?> </li>
+				<li><?php echo $html->link('Comissão Organizadora', array('controller' => 'pages', 'action' => 'display', 'comissao')); ?></li>
+				<li><?php echo $html->link('Conselho Científico', array('controller' => 'pages', 'action' => 'display', 'conselho')); ?> </li>
+				<li><?php echo $html->link('Programação', array('controller' => 'pages', 'action' => 'display', 'programacao')); ?> </li>
+				<li><?php echo $html->link('Caderno de Resumos', array('controller' => 'pages', 'action' => 'resumos')); ?> </li>
+				<li><?php echo $html->link('Anais',  array('controller' => 'pages', 'action' => 'anais')); ?> </li>
+				<li><?php echo $html->link('Capa CD',  array('controller' => 'pages', 'action' => 'capacd')); ?> </li>
+				<li><?php echo $html->link('Etiqueta CD',  array('controller' => 'pages', 'action' => 'etiquetacd')); ?> </li>
+				<li><?php echo $html->link('Revista Domínios da Imagem',  'http://www2.uel.br/cch/his/dominiosdaimagem/index.htm'); ?> </li>
+			</ul>
+		</div>
+		<div id="content">
+			<?php echo $content_for_layout ?>
+		</div>
+		
+	</div>
+<div id="footer">
+			<small>Copyright © LEDI, 2010</small>
+	</div>
+</div>
+
+</body>
+</html>
